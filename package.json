@@ -1,0 +1,27 @@
+{
+  "name": "api-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petrides-anthony/api-boilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/petrides-anthony/api-boilerplate/issues"
+  },
+  "homepage": "https://github.com/petrides-anthony/api-boilerplate#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.5"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.2"
+  }
+}

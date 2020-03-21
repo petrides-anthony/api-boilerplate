@@ -1,0 +1,29 @@
+### Getting all users
+GET http://localhost:3000/subscribers
+
+### Getting a user by id
+
+GET http://localhost:3000/subscribers/5e76441e13126f3decba6da0
+
+### Saving a user to the db
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+  "name": "bob",
+  "subscribedChannel": "Bennetts Channel"
+}
+
+### Deleting a user by id
+
+DELETE http://localhost:3000/subscribers/5e76441e13126f3decba6da0
+
+### Updating a user
+
+PATCH http://localhost:3000/subscribers/5e7646678e6c71453486ad5c
+Content-Type: application/json 
+
+{
+  "name": "Tommy"
+}
